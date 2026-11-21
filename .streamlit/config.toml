@@ -1,0 +1,26 @@
+# Tema del chat multiusuario.
+#
+# Streamlit lo lee al lanzar `streamlit run app.py` desde esta carpeta.
+# Paleta oscura en azul pizarra con un acento violeta: el violeta se asocia a
+# memoria/asistente y destaca sin competir con los colores de las categorías de
+# memoria (azul, verde, naranja y gris).
+#
+# Para volver al tema por defecto, borrar este fichero.
+
+[theme]
+base = "dark"
+primaryColor = "#8B7CF6"
+backgroundColor = "#0F1620"
+secondaryBackgroundColor = "#17202B"
+textColor = "#E6E8EE"
+borderColor = "#26313E"
+dataframeHeaderBackgroundColor = "#1D2835"
+linkColor = "#A99BFF"
+font = "sans serif"
+# Un poco más redondeado que en otras apps: aquí las tarjetas y burbujas de chat
+# son protagonistas.
+baseRadius = "medium"
+
+[client]
+# Sin botón "Deploy" ni menú de desarrollo.
+toolbarMode = "minimal"

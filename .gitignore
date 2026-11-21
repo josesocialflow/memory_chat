@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Secretos: nunca subir el .env real
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Datos de la demo: se recrean solos al arrancar
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Sistema
+.DS_Store
+Thumbs.db

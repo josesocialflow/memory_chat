@@ -1,0 +1,12 @@
+# Configuración de ruff del proyecto.
+#
+# Vive aquí para que el resultado sea el mismo se lance `ruff check .` desde
+# esta carpeta o desde la raíz del repositorio: sin ella, ruff adivina qué es
+# "primera parte" según el directorio de trabajo y el orden de los imports
+# cambia de una ejecución a otra.
+line-length = 88
+src = ["."]
+
+[lint]
+# Reglas por defecto de ruff más el orden de imports.
+select = ["E4", "E7", "E9", "F", "I"]
