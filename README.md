@@ -4,6 +4,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.57-FF4B4B?logo=streamlit&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1.2-1C3C3C)
 ![Chroma](https://img.shields.io/badge/Chroma-1.5-FF6B6B)
+[![YouTube](https://img.shields.io/badge/YouTube-Ver%20demo-FF0000?logo=youtube&logoColor=white)](https://youtu.be/lVnv8n8Le_Y)
 
 Aplicación de chat multiusuario construida con **Streamlit**, **LangGraph** y
 **Chroma**. Cada usuario tiene sus propios chats y, además, una **memoria
@@ -34,6 +35,10 @@ autenticación real.
   se inyectan siempre; el resto se añade por similitud.
 - **Memoria visible y editable** desde la interfaz, con histórico de lo
   sustituido.
+
+## 🎬 Demo en vídeo
+
+[![Ver la demo en YouTube](https://img.youtube.com/vi/lVnv8n8Le_Y/maxresdefault.jpg)](https://youtu.be/lVnv8n8Le_Y)
 
 ## 🗺️ Cómo funciona
 
