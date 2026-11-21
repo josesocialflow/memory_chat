@@ -1,4 +1,4 @@
-# 🧠 Chat multiusuario con memoria avanzada
+# 🧠 Chat multiusuario con gestión de memoria
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.57-FF4B4B?logo=streamlit&logoColor=white)
